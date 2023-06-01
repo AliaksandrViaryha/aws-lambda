@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const FREE_API = 'https://jsonplaceholder.typicode.com/posts';
 
-module.exports.handler = async (event) => {
+module.exports.getAll = async (event) => {
   const response = await axios.get(`${FREE_API}`);
   const posts = response.data;
 
