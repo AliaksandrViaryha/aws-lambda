@@ -3,11 +3,16 @@
 
 ### You can chech endpoints:
 
-endpoints:
-  GET - https://bqolbkx2ud.execute-api.us-east-1.amazonaws.com/dev/posts
-  GET - https://bqolbkx2ud.execute-api.us-east-1.amazonaws.com/dev/posts/{id}
-  GET - https://dvqy25cju6.execute-api.us-east-1.amazonaws.com/swagger
-
+All endpoints GET methods:
+```bash
+https://bqolbkx2ud.execute-api.us-east-1.amazonaws.com/dev/posts
+```
+```bash
+https://bqolbkx2ud.execute-api.us-east-1.amazonaws.com/dev/posts/{id}
+```
+```bash
+https://dvqy25cju6.execute-api.us-east-1.amazonaws.com/swagger
+```
 ### Local development
 
 You can invoke your function locally by using the following command:
