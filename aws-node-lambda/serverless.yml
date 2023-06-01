@@ -3,8 +3,13 @@ frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs18.x
+  runtime: nodejs16.x
 
 functions:
-  function1:
-    handler: index.handler
+  getAll:
+    handler: handler.getAll
+    events:
+      - http: 
+          path: posts
+          method: get
+          cors: true
