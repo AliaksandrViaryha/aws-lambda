@@ -13,3 +13,10 @@ functions:
           path: posts
           method: get
           cors: true
+  getOne:
+    handler: handler.getOne
+    events:
+      - http: 
+          path: posts/{id}
+          method: get
+          cors: true
