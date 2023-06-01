@@ -20,3 +20,7 @@ functions:
           path: posts/{id}
           method: get
           cors: true
+
+plugins:
+- serverless-auto-swagger
+- serverless-offline # adding the plugin to be able to run the offline emulation
